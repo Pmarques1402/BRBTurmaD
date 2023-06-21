@@ -1,8 +1,8 @@
-
-
-
-text-align: center;
-padding: 2.Sem 2em;
+.banner{
+    background: var(--azul-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
 }
 
 .banner__titulo{
@@ -15,4 +15,12 @@ padding: 2.Sem 2em;
     padding: 1em;    
 }
 
-.banner__pesquisa
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../Img/lupa.svg") no-repeat;
+    background-position: 1em;
+}
